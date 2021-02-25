@@ -5,8 +5,8 @@
       { "label": "Crawler Excavator", "value": "Crawler Excavator" },
       { "label": "Mini Crawler Excavator", "value": "Mini Crawler Excavator" },
       { "label": "Dozer", "value": "Dozer" },
-      { "label": "Motor grader", "value": "Motor grader" },
-    ],
+      { "label": "Motor grader", "value": "Motor grader" }
+    ]
   },
   {
     "label": "Road Equipment",
@@ -14,8 +14,8 @@
       { "label": "Cold Planers", "value": "Cold Planers" },
       { "label": "Kerb Casting machine", "value": "Kerb Casting machine" },
       { "label": "Slipform paver", "value": "Slipform paver" },
-      { "label": "Asphalt Paver", "value": "Asphalt Paver" },
-    ],
+      { "label": "Asphalt Paver", "value": "Asphalt Paver" }
+    ]
   },
   {
     "label": "Material handling equipment",
@@ -23,44 +23,44 @@
       { "label": "Pick n Carry Cranes", "value": "Pick n Carry Cranes" },
       { "label": "Tower cranes", "value": "Tower cranes" },
       { "label": "Truck Mounted Crane", "value": "Truck Mounted Crane" },
-      { "label": "Crawler crane", "value": "Crawler crane" },
-    ],
+      { "label": "Crawler crane", "value": "Crawler crane" }
+    ]
   },
   {
     "label": "Construction vehicles",
     "options": [
       { "label": "Tipper truck", "value": "Tipper truck" },
-      { "label": "Soil compactor", "value": "Soil compactor" },
-    ],
+      { "label": "Soil compactor", "value": "Soil compactor" }
+    ]
   },
   {
     "label": "Concrete equipment",
     "options": [
       { "label": "Concrete pumps", "value": "Concrete pumps" },
       { "label": "Self-loading concrete mixer", "value": "Self-loading concrete mixer" },
-      { "label": "Transit mixer", "value": "Transit mixer" },
-    ],
+      { "label": "Transit mixer", "value": "Transit mixer" }
+    ]
   },
   {
     "label": "Piling equipment",
-    "options": [{ "label": "Piling Rig", "value": "Piling Rig" }],
+    "options": [{ "label": "Piling Rig", "value": "Piling Rig" }]
   },
   {
     "label": "Handheld equipments",
     "options": [
       { "label": "Hammers", "value": "Hammers" },
-      { "label": "Rock breakers", "value": "Rock breakers" },
-    ],
+      { "label": "Rock breakers", "value": "Rock breakers" }
+    ]
   },
   {
     "label": "Port equipment",
-    "options": [{ "label": "Reach Stacker", "value": "Reach Stacker" }],
+    "options": [{ "label": "Reach Stacker", "value": "Reach Stacker" }]
   },
   {
     "label": "Other construction equipment",
     "options": [
       { "label": "Diesel Generators", "value": "Diesel Generators" },
-      { "label": "Pipelayers", "value": "Pipelayers" },
-    ],
-  },
-];
+      { "label": "Pipelayers", "value": "Pipelayers" }
+    ]
+  }
+]
