@@ -9,5 +9,9 @@
   "Comment": {
     "body": "string",
     "post": "Post"
+  },
+  "Equipments": {
+    "title": "string",
+    "year": "int"
   }
 }
