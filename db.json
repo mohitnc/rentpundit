@@ -1,68 +1,124 @@
 {
-  "equipments": [
-  {
-    "label": "Earth moving equipment",
-    "options": [
-      { "label": "Crawler Excavator", "value": "Crawler Excavator" },
-      { "label": "Mini Crawler Excavator", "value": "Mini Crawler Excavator" },
-      { "label": "Dozer", "value": "Dozer" },
-      { "label": "Motor grader", "value": "Motor grader" }
-    ]
-  },
-  {
-    "label": "Road Equipment",
-    "options": [
-      { "label": "Cold Planers", "value": "Cold Planers" },
-      { "label": "Kerb Casting machine", "value": "Kerb Casting machine" },
-      { "label": "Slipform paver", "value": "Slipform paver" },
-      { "label": "Asphalt Paver", "value": "Asphalt Paver" }
-    ]
-  },
-  {
-    "label": "Material handling equipment",
-    "options": [
-      { "label": "Pick n Carry Cranes", "value": "Pick n Carry Cranes" },
-      { "label": "Tower cranes", "value": "Tower cranes" },
-      { "label": "Truck Mounted Crane", "value": "Truck Mounted Crane" },
-      { "label": "Crawler crane", "value": "Crawler crane" }
-    ]
-  },
-  {
-    "label": "Construction vehicles",
-    "options": [
-      { "label": "Tipper truck", "value": "Tipper truck" },
-      { "label": "Soil compactor", "value": "Soil compactor" }
-    ]
-  },
-  {
-    "label": "Concrete equipment",
-    "options": [
-      { "label": "Concrete pumps", "value": "Concrete pumps" },
-      { "label": "Self-loading concrete mixer", "value": "Self-loading concrete mixer" },
-      { "label": "Transit mixer", "value": "Transit mixer" }
-    ]
-  },
-  {
-    "label": "Piling equipment",
-    "options": [{ "label": "Piling Rig", "value": "Piling Rig" }]
-  },
-  {
-    "label": "Handheld equipments",
-    "options": [
-      { "label": "Hammers", "value": "Hammers" },
-      { "label": "Rock breakers", "value": "Rock breakers" }
-    ]
-  },
-  {
-    "label": "Port equipment",
-    "options": [{ "label": "Reach Stacker", "value": "Reach Stacker" }]
-  },
-  {
-    "label": "Other construction equipment",
-    "options": [
-      { "label": "Diesel Generators", "value": "Diesel Generators" },
-      { "label": "Pipelayers", "value": "Pipelayers" }
-    ]
-  }
-]
+    "equipments": {
+  "columns": [
+    {
+      "label": "ID",
+      "field": "id",
+      "width": 270
+    },
+    {
+      "label": "Type",
+      "field": "type",
+      "width": 270
+    },
+    {
+      "label": "Name",
+      "field": "name",
+      "width": 270
+    },
+    {
+      "label": "Make",
+      "field": "make",
+      "width": 270
+    },
+    {
+      "label": "Model",
+      "field": "model",
+      "width": 270
+    },
+    {
+      "label": "Specification",
+      "field": "specification",
+      "width": 270
+    },
+    {
+      "label": "Alias",
+      "field": "alias",
+      "width": 270
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "type": "Earth moving equipment",
+      "name": "Crawler Excavator",
+      "make": "JCB",
+      "model": "JS81",
+      "specification": "8.4 tonne",
+      "alias": "Poclain"
+    },
+    {
+      "id": 2,
+      "type": "Earth moving equipment",
+      "name": "Mini Crawler Excavator",
+      "make": "JCB",
+      "model": "JCB 30plus",
+      "specification": "2.8 tonne",
+      "alias": ""
+    },
+    {
+      "id": 3,
+      "type": "Earth moving equipment",
+      "name": "Dozer",
+      "make": "CAT",
+      "model": "844K",
+      "specification": "75 tonne",
+      "alias": ""
+    },
+    {
+      "id": 4,
+      "type": "Road Equipment",
+      "name": "PT roller",
+      "make": "Volvo",
+      "model": "PT240R",
+      "specification": "24 tonne",
+      "alias": ""
+    },
+    {
+      "id": 5,
+      "type": "Material handling equipment",
+      "name": "Telescopic Handler",
+      "make": "Liebherr",
+      "model": "T32-7S",
+      "specification": "7m",
+      "alias": ""
+    },
+    {
+      "id": 6,
+      "type": "Construction vehicles",
+      "name": "Tipper truck",
+      "make": "TATA",
+      "model": "Prima 2825K",
+      "specification": "32 tonnes",
+      "alias": ""
+    },
+    {
+      "id": 7,
+      "type": "Material handling equipment",
+      "name": "Telescopic Handler",
+      "make": "Liebherr",
+      "model": "T32-7S",
+      "specification": "7m",
+      "alias": ""
+    },
+    {
+      "id": 8,
+      "type": "Construction vehicles",
+      "name": "Tipper truck",
+      "make": "Ashok Leyland",
+      "model": "4225",
+      "specification": "48 tonnes",
+      "alias": ""
+    },
+    {
+      "id": 9,
+      "type": "Concrete equipment",
+      "name": "Transit mixer",
+      "make": "AJAX",
+      "model": "AF 8XP",
+      "specification": "8 cum",
+      "alias": ""
+    }
+  ]
+}
 }
